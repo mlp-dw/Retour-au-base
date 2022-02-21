@@ -1,0 +1,21 @@
+.zone-php::after {
+    content: 'PHP';
+}
+
+.zone-js::after {
+    content: 'JS';
+}
+
+.zone-php::after, .zone-js::after {
+    position: absolute;
+    color: #fff6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300px;
+    font-weight: bold;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
